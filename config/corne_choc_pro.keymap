@@ -74,17 +74,17 @@
         };
 
         num_nav {
-            display-name = "EXTRA 1";
+            display-name = "num_nav";
             bindings = <
-&trans  &kp ESC   &none     &kp UP_ARROW  &none      &none          &bootloader     &sys_reset  &kp DELETE       &kp N7              &kp N8                  &kp N9             &kp BACKSPACE           &trans
+&trans  &kp ESC   &none     &kp UP_ARROW  &none      &none          &bootloader     &sys_reset  &kp DELETE       &kp KP_N7           &kp KP_NUMBER_8         &kp KP_N9          &kp BACKSPACE           &trans
 &trans  &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_UP    &studio_unlock  &bt BT_CLR  &kp KP_DIVIDE    &HMR_R RCTRL KP_N4  &HMR_R RIGHT_GUI KP_N5  &HMR_R RALT KP_N6  &HMR_R RSHIFT KP_MINUS  &trans
-&trans  &kp END   &trans    &trans        &trans     &kp PAGE_DOWN                              &kp KP_ASTERISK  &kp N1              &kp N2                  &kp N3             &kp KP_PLUS             &trans
-                            &trans        &trans     &trans                                     &kp RET          &kp N0              &kp KP_DOT
+&trans  &kp END   &trans    &trans        &trans     &kp PAGE_DOWN                              &kp KP_ASTERISK  &kp KP_N1           &kp KP_N2               &kp KP_N3          &kp KP_PLUS             &trans
+                            &trans        &trans     &trans                                     &kp RET          &kp KP_NUMBER_0     &kp KP_DOT
             >;
         };
 
         symb {
-            display-name = "EXTRA 2";
+            display-name = "symb";
             bindings = <
 &trans  &kp CARET                 &kp LT                            &kp GREATER_THAN                   &kp DLLR                         &kp PERCENT  &bt BT_SEL 0  &bt BT_SEL 2  &kp AT    &kp AMPS                   &kp STAR                &kp APOSTROPHE          &kp GRAVE          &trans
 &trans  &HRM_L RSHIFT LEFT_BRACE  &HRM_L LEFT_ALT LEFT_PARENTHESIS  &HRM_L LEFT_GUI RIGHT_PARENTHESIS  &HRM_L LEFT_CONTROL RIGHT_BRACE  &kp EQUAL    &bt BT_SEL 1  &bt BT_SEL 3  &kp BSLH  &HMR_R RIGHT_CONTROL PLUS  &HMR_R RIGHT_GUI MINUS  &HMR_R RIGHT_ALT SLASH  &HMR_R RSHIFT DQT  &trans
@@ -94,12 +94,12 @@
         };
 
         num_func {
-            display-name = "EXTRA 3";
+            display-name = "num_func";
             bindings = <
 &trans  &kp F1                  &kp F2              &kp F3          &kp F4                  &kp F5           &kp F13  &kp F15  &kp F6         &kp F7                   &kp F8             &kp F9          &kp F10           &trans
 &trans  &HRM_L LSHIFT NUMBER_1  &HRM_L N2 LEFT_ALT  &HRM_L N3 LGUI  &HRM_L N4 LEFT_CONTROL  &kp N5           &kp F14  &kp F16  &kp N6         &HMR_R N7 RIGHT_CONTROL  &HMR_R N8 RGUI     &HMR_R N9 RALT  &HMR_R RSHIFT N0  &trans
 &trans  &kp INS                 &none               &none           &none                   &kp PRINTSCREEN                    &kp C_AC_ZOOM  &kp C_AC_ZOOM_IN         &kp C_AC_ZOOM_OUT  &none           &none             &trans
-                                                    &trans          &mt RSHIFT DEL          &trans                             &trans         &trans                   &trans
+                                                    &trans          &mt RSHIFT TAB          &trans                             &trans         &kp BACKSPACE            &trans
             >;
         };
     };
