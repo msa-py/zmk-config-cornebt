@@ -76,10 +76,10 @@
         num_nav {
             display-name = "EXTRA 1";
             bindings = <
-&trans  &kp ESC   &kp PG_DN  &kp UP_ARROW  &kp DELETE  &kp BACKSPACE  &bootloader     &sys_reset  &kp FSLH  &kp N7              &kp N8                  &kp N9             &kp MINUS              &trans
-&trans  &kp HOME  &kp LEFT   &kp DOWN      &kp RIGHT   &kp PAGE_UP    &studio_unlock  &bt BT_CLR  &kp STAR  &HMR_R RCTRL KP_N4  &HMR_R RIGHT_GUI KP_N5  &HMR_R RALT KP_N6  &HMR_R RSHIFT KP_PLUS  &trans
-&trans  &kp END   &trans     &trans        &trans      &kp PAGE_DOWN                              &kp DOT   &kp N1              &kp N2                  &kp N3             &kp COMMA              &trans
-                             &trans        &trans      &trans                                     &kp RET   &kp N0              &trans
+&trans  &kp ESC   &none     &kp UP_ARROW  &none      &none          &bootloader     &sys_reset  &kp DELETE       &kp N7              &kp N8                  &kp N9             &kp BACKSPACE           &trans
+&trans  &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_UP    &studio_unlock  &bt BT_CLR  &kp KP_DIVIDE    &HMR_R RCTRL KP_N4  &HMR_R RIGHT_GUI KP_N5  &HMR_R RALT KP_N6  &HMR_R RSHIFT KP_MINUS  &trans
+&trans  &kp END   &trans    &trans        &trans     &kp PAGE_DOWN                              &kp KP_ASTERISK  &kp N1              &kp N2                  &kp N3             &kp KP_PLUS             &trans
+                            &trans        &trans     &trans                                     &kp RET          &kp N0              &kp KP_DOT
             >;
         };
 
